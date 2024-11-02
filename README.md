@@ -128,7 +128,6 @@ You can take the following suggestive steps to build the model:
 6.  Evaluate the models using appropriate evaluation metrics. Note that is is more important to identify churners than the non-churners accurately - choose an appropriate evaluation metric which reflects this business goal.
     
 7.  Finally, choose a model based on some evaluation metric.
-    
 
 The above model will only be able to achieve one of the two goals - to predict customers who will churn. You can’t use the above model to identify the important features for churn. That’s because PCA usually creates components which are not easy to interpret.
 
@@ -137,10 +136,3 @@ Therefore, build another model with the main objective of identifying important 
 After identifying important predictors, display them visually - you can use plots, summary tables etc. - whatever you think best conveys the importance of features.
 
 Finally, **recommend strategies to manage customer churn** based on your observations.
-
-**Note**: Everything has to be submitted in one Jupyter notebook.
-
-
-## Jupyter Notebook Viewer
-If you are unable to view or load the jupyter IPython notebook via Github, please click on this [link](https://nbviewer.jupyter.org/github/ChaitanyaC22/Telecom-Churn-Prediction/blob/chai_main/Telecom_Churn_Prediction.ipynb).
-Thank you!
